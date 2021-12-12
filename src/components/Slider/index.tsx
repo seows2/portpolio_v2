@@ -1,8 +1,13 @@
 import styled from "styled-components";
 import { flexCenter } from "../../styles/theme";
+import TextSlider from "./TextSlider";
 
 const Slider = () => {
-  return <Wrapper>대충 텍스트 날라다니는 페이지</Wrapper>;
+  return (
+    <Wrapper>
+      <TextSlider />
+    </Wrapper>
+  );
 };
 
 const Wrapper = styled.div`
