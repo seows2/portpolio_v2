@@ -20,8 +20,8 @@ function App() {
         <Slider />
       ) : (
         <div className="App">
-          <Main />
           <Intro />
+          <Main />
         </div>
       )}
     </AppContainer>

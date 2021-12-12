@@ -4,9 +4,9 @@ const TextSlider = () => {
   return (
     <Wrapper>
       <div className="slider">
-        <div className="slide">하나</div>
-        <div className="slide">둘</div>
-        <div className="slide">셋</div>
+        <div className="slide">설명 1</div>
+        <div className="slide">설명 2</div>
+        <div className="slide">설명 3</div>
       </div>
     </Wrapper>
   );
